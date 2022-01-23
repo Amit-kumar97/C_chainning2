@@ -1,23 +1,26 @@
-public class C_Channing {               // constructor channing within the class
-    int Rollno;                          // instance integer type variable
-    String Name;                         // instance string type variable
-    C_Channing()                         // non-parameterise constructor
+//----------- constructor channing within the class
+
+public class C_Channing {               
+    int Rollno;                          //----------- instance integer type variable
+    String Name;                         //----------- instance string type variable
+    C_Channing()                         //----------- non-parameterise constructor
     {
-        Rollno=10;                         //assigning value to the integer variable
-        Name="Aman";                        //assigning value to the string variable
+        Rollno=10;                         //----------assigning value to the integer variable
+        Name="Aman";                        //----------assigning value to the string variable
     }
-    C_Channing(int Rollno,String Name)          //parameterise constructor
+    C_Channing(int Rollno,String Name)          //---------parameterise constructor
     {
         this.Rollno=Rollno;
         this.Name=Name;
     }
-    public void display()                          //method to display the value
+    public void display()                          //------------method to display the value
     {
-        System.out.println(Rollno);                // printing rollno
-        System.out.println(Name);                  // printing name
+        System.out.println(Rollno);                //------------ printing rollno
+        System.out.println(Name);                  //------------ printing name
     }
-}                                                   // end of defination class
-class Test                                    //execution class
+}                                                   //------------ end of defination class
+//-----------execution class
+class Test                                    
 {
     public static void main(String[] args) {               //main method
         C_Channing obj1=new C_Channing();                   // creating object with non-parametrise constructor
